@@ -1,0 +1,10 @@
+.hero-section {
+    background: url('https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=2070&auto=format&fit=crop') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-weight: bold;
+}

@@ -1,0 +1,12 @@
+.progress {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.progress-bar {
+  transition: width 0.6s ease;
+}
+
+h5 {
+    margin-bottom: 0.75rem;
+}

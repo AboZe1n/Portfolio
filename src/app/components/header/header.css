@@ -1,0 +1,3 @@
+.navbar-collapse {
+  transition: height 0.35s ease;
+}
