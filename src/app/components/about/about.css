@@ -1,0 +1,13 @@
+.personal-photo {
+  width: 300px;     
+  height: 300px;   
+  object-fit: cover;  
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); 
+}
+
+@media (max-width: 768px) {
+  .personal-photo {
+    width: 200px;
+    height: 200px;
+  }
+}
