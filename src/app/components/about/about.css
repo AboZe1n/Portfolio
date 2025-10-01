@@ -1,13 +1,11 @@
-.personal-photo {
-  width: 300px;     
-  height: 300px;   
-  object-fit: cover;  
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); 
-}
+/* src/app/components/about/about.css */
 
-@media (max-width: 768px) {
-  .personal-photo {
-    width: 300px;
-    height: 300px;
-  }
+.personal-photo {
+  max-width: 100%; /* أهم تعديل: خلي أقصى عرض للصورة هو 100% من عرض العمود */
+  height: auto; /* خلي الطول يتปรับل تلقائيًا مع العرض */
+  
+
+  object-fit: cover;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
 }

@@ -10,6 +10,7 @@
   transition: width 1s ease-in-out; /* عدلنا مدة وسرعة الأنيميشن عشان يبقى شكله أحسن */
 }
 
-h5 {
+h6 {
     margin-bottom: 0.75rem;
+    font-size: large;
 }
