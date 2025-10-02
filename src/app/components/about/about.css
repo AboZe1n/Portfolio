@@ -3,9 +3,8 @@
 .personal-photo {
   max-width: 100%; /* أهم تعديل: خلي أقصى عرض للصورة هو 100% من عرض العمود */
   height: auto; /* خلي الطول يتปรับل تلقائيًا مع العرض */
-  
-
+  border-radius: 2%;
   object-fit: cover;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
 
 }
